@@ -29,7 +29,11 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSelectModule } from '@angular/material/select';
 import {MatStepperModule} from '@angular/material/stepper';
 
-
+import { AdministracionComponent } from 'src/app/pages/principal/administracion/administracion.component';
+import { SistemasComponent } from 'src/app/pages/principal/administracion/sistemas/sistemas.component';
+import { ModulosComponent } from 'src/app/pages/principal/administracion/modulos/modulos.component';
+import { CanalesComponent } from 'src/app/pages/principal/administracion/canales/canales.component';
+import { OperacionesComponent } from 'src/app/pages/principal/administracion/operaciones/operaciones.component';
 
 import { CambiarclaveComponent } from 'src/app/pages/generico/perfil/cambiarclave/cambiarclave.component';
 import { HechiceroComponent } from 'src/app/pages/generico/hechicero/hechicero.component';
@@ -110,6 +114,11 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
     CambiarclaveComponent,
     HechiceroComponent,
     TablaComponent,
+    AdministracionComponent,
+    SistemasComponent,
+    ModulosComponent,
+    CanalesComponent,
+    OperacionesComponent,
   ]
 })
 

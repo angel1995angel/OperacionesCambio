@@ -35,9 +35,9 @@ import { AuthInterceptorService } from './services/seguridad/auth-interceptor.se
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatInputModule } from '@angular/material/input';
-
 import { AutocompleteLibModule } from 'angular-ng-autocomplete';
 import { MatTableModule } from '@angular/material/table';
+
 
 const ngxUiLoaderConfig: NgxUiLoaderConfig = {
   "bgsColor": "#79c680",
@@ -105,7 +105,7 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
       progressBar: true,
       positionClass: "toast-top-right",
       preventDuplicates: false    }),
-    AngularFileUploaderModule
+   /*  AngularFileUploaderModule, */
 
   ],
   declarations: [
