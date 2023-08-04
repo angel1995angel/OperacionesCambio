@@ -1,1 +1,83 @@
-<p>sistemas works!</p>
+<div style="padding: 20px;">
+    <br>
+    <form>
+
+        <div class="row">
+            <div class="col-md-3">
+                <mat-form-field appearance="outline">
+                    <mat-label>Codigo</mat-label>
+                    <input matInput placeholder="Codigo" value="">
+                    <mat-icon matSuffix>search</mat-icon>
+
+                </mat-form-field>
+            </div>
+            <div class="col-md-3">
+                <mat-form-field appearance="outline">
+                    <mat-label>Codigo sistema</mat-label>
+                    <input matInput placeholder="Codigo sistema" value="">
+                </mat-form-field>
+            </div>
+       
+            <div class="col-md-6">
+                <mat-form-field appearance="outline">
+                    <mat-label>Descripcion</mat-label>
+                    <input matInput placeholder="Descripcion" value="">
+                </mat-form-field>
+            </div>
+        </div>
+
+   
+
+        <div class="row">
+
+            <div class="col-md-12 text-right">
+                <hr>
+                <button mat-flat-button color="primary">Aceptar</button>
+            </div>
+
+        </div>
+
+    </form>
+</div>
+<div style="padding: 20px;" >
+    <br>
+    <div class="row">
+        <div class="col-md-12 text-right">
+            <button mat-icon-button aria-label="volver" >
+                <mat-icon class="texto-gray">arrow_back</mat-icon>
+            </button>
+        </div>
+    </div>
+    <mat-selection-list>
+        <mat-list *ngFor="let e of 1; let i=index "
+            style="border-bottom: 1px rgba(224, 223, 223, 0.945) solid;">
+        <!--     <div class="row">
+
+                <div class="col-md-1 texto-detalle">
+                    {{ e.codigo | uppercase }}
+                </div>
+                <div class="col-md-4 texto-lista">
+                    {{ e.descripcion | uppercase}}
+                </div>
+                <div class="col-md-2 texto-detalle">
+                    {{ e.moneda | uppercase }}
+                </div>
+                <div class="col-md-2 texto-detalle">
+                    {{ e.frecuencia | uppercase }}
+                </div>
+                <div class="col-md-2 texto-detalle">
+                    {{ e.valormercado | uppercase }}
+                </div>
+
+                <div class="col-md-1 text-right">
+
+                    <button mat-icon-button aria-label="Editar" (click)="editar(e)">
+                        <mat-icon class="texto-gray">edit</mat-icon>
+                    </button>
+
+                </div>
+            </div> -->
+        </mat-list>
+    </mat-selection-list>
+    <br><br>
+</div>
