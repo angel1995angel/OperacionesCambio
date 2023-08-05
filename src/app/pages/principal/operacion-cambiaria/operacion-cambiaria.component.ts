@@ -6,11 +6,11 @@ import { ApiService, IAPICore } from 'src/app/services/apicore/api.service';
 import { FormControl } from '@angular/forms';
 
 @Component({
-  selector: 'app-canales',
-  templateUrl: './canales.component.html',
-  styleUrls: ['./canales.component.scss']
+  selector: 'app-operacion-cambiaria',
+  templateUrl: './operacion-cambiaria.component.html',
+  styleUrls: ['./operacion-cambiaria.component.scss']
 })
-export class CanalesComponent implements OnInit {
+export class OperacionCambiariaComponent implements OnInit {
 
   constructor() { }
 

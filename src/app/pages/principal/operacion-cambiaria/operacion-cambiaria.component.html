@@ -1,32 +1,29 @@
 <div style="padding: 20px;">
     <br>
     <form>
-
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <mat-form-field appearance="outline">
-                    <mat-label>Codigo</mat-label>
-                    <input matInput placeholder="Codigo" value="">
+                    <mat-label>TIPO CLIENTE</mat-label>
+
+                    <mat-select placeholder="Estatus">
+                        <mat-option value="V">VENEZOLANO</mat-option>
+                        <mat-option value="E">EXTRANJERO</mat-option>
+                        <mat-option value="J">JURIDICO</mat-option>
+                    </mat-select>
+
+
+                </mat-form-field>
+            </div>
+            <div class="col-md-4">
+                <mat-form-field appearance="outline">
+                    <mat-label>CEDULA / RIF</mat-label>
+                    <input matInput placeholder="Cedula - Rif" value="">
                     <mat-icon matSuffix>search</mat-icon>
 
                 </mat-form-field>
             </div>
-            <div class="col-md-3">
-                <mat-form-field appearance="outline">
-                    <mat-label>Codigo canal</mat-label>
-                    <input matInput placeholder="Codigo canal" value="">
-                </mat-form-field>
-            </div>
-       
-            <div class="col-md-6">
-                <mat-form-field appearance="outline">
-                    <mat-label>Descripcion</mat-label>
-                    <input matInput placeholder="Descripcion" value="">
-                </mat-form-field>
-            </div>
-        </div>
 
-        <div class="row">
             <div class="col-md-4">
                 <mat-form-field appearance="outline">
                     <mat-label>Fecha Operacion</mat-label>
@@ -35,23 +32,47 @@
                     <mat-icon matSuffix>event</mat-icon>
                 </mat-form-field>
             </div>
-            <div class="col-md-4">
-                <mat-form-field appearance="outline">
-                    <mat-label>Fecha Modificar</mat-label>
-                    <input matInput>
-               <!--      <mat-datepicker></mat-datepicker> -->
-                    <mat-icon matSuffix>event</mat-icon>
-                </mat-form-field>
-            </div> 
-            <div class="col-md-4">
-                <mat-form-field appearance="outline">
-                    <mat-label>Estatus</mat-label>
 
-                    <mat-select placeholder="Estatus">
-                        <mat-option value="0">ACTIVO</mat-option>
-                        <mat-option value="1">INACTIVO</mat-option>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <mat-form-field appearance="outline">
+                    <mat-label>CUENTA CLIENTE - MONEDA LOCAL</mat-label>
+
+                    <mat-select placeholder="CUENTA">
+                        <mat-option value="P">01022345678907654321</mat-option>
                     </mat-select>
 
+
+                </mat-form-field>
+            </div>
+            <div class="col-md-6">
+                <mat-form-field appearance="outline">
+                    <mat-label>CUENTA CLIENTE - MONEDA EXTRANJERA</mat-label>
+
+                    <mat-select placeholder="CUENTA">
+                        <mat-option value="P">01022345678907654322</mat-option>
+                    </mat-select>
+
+
+                </mat-form-field>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <mat-form-field appearance="outline">
+                    <mat-label>MONTO DIVISAS</mat-label>
+                    <input matInput placeholder="MONTO" value="">
+                    <mat-icon matSuffix></mat-icon>
+
+                </mat-form-field>
+            </div>
+            <div class="col-md-3">
+                <mat-form-field appearance="outline">
+                    <mat-label>TASA</mat-label>
+                    <input matInput placeholder="TASA" value="">
+                    <mat-icon matSuffix></mat-icon>
 
                 </mat-form-field>
             </div>

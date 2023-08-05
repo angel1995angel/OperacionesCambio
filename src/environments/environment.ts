@@ -5,8 +5,8 @@
 export const environment = {
   production: false,
   ID : 'ID-001',
-  Url: 'http://10.120.0.58',
-  API: '/devel/api/',
+  Url: 'http://65.108.62.7',
+  API: '/v1/api/',
   Hash: ':c521f27fb1b3311d686d511b668e5bd4'
 };
 

@@ -1,1 +1,39 @@
-<p>administracion works!</p>
+<div class="row">
+    <div class="col-md-12">
+        <div class="card card-profile shadow">
+            <div class="card-body">
+                <ngx-ui-loader [loaderId]="'load-inver'"></ngx-ui-loader>
+                <mat-tab-group>
+                    <mat-tab label="SISTEMAS">
+                        <app-sistemas></app-sistemas>
+
+                    </mat-tab>
+                    <mat-tab label="MODULOS">
+                        <app-modulos></app-modulos>
+                    </mat-tab>
+                    <mat-tab label="OPERACIONES">
+                        <app-operaciones></app-operaciones>
+                    </mat-tab>
+                    <mat-tab label="CANALES">
+                        <app-canales></app-canales>
+                    </mat-tab>
+
+                    <mat-tab label="PRODUCTOS">
+                        <app-productos></app-productos>
+                    </mat-tab>
+
+
+
+                </mat-tab-group>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- <ng-template #hechicero let-modal>
+    <app-hechicero></app-hechicero>
+</ng-template> -->

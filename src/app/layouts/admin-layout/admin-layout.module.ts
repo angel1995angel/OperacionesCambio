@@ -34,6 +34,8 @@ import { SistemasComponent } from 'src/app/pages/principal/administracion/sistem
 import { ModulosComponent } from 'src/app/pages/principal/administracion/modulos/modulos.component';
 import { CanalesComponent } from 'src/app/pages/principal/administracion/canales/canales.component';
 import { OperacionesComponent } from 'src/app/pages/principal/administracion/operaciones/operaciones.component';
+import { ProductosComponent } from 'src/app/pages/principal/administracion/productos/productos.component';
+import { OperacionCambiariaComponent } from 'src/app/pages/principal/operacion-cambiaria/operacion-cambiaria.component';
 
 import { CambiarclaveComponent } from 'src/app/pages/generico/perfil/cambiarclave/cambiarclave.component';
 import { HechiceroComponent } from 'src/app/pages/generico/hechicero/hechicero.component';
@@ -119,6 +121,8 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
     ModulosComponent,
     CanalesComponent,
     OperacionesComponent,
+    ProductosComponent,
+    OperacionCambiariaComponent,
   ]
 })
 

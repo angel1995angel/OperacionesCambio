@@ -3,14 +3,13 @@ import { MatDialog } from '@angular/material/dialog';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { NgxUiLoaderService } from 'ngx-ui-loader';
 import { ApiService, IAPICore } from 'src/app/services/apicore/api.service';
-import { FormControl } from '@angular/forms';
 
 @Component({
-  selector: 'app-canales',
-  templateUrl: './canales.component.html',
-  styleUrls: ['./canales.component.scss']
+  selector: 'app-productos',
+  templateUrl: './productos.component.html',
+  styleUrls: ['./productos.component.scss']
 })
-export class CanalesComponent implements OnInit {
+export class ProductosComponent implements OnInit {
 
   constructor() { }
 

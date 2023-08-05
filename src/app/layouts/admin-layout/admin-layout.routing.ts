@@ -9,7 +9,10 @@ import { SistemasComponent } from 'src/app/pages/principal/administracion/sistem
 import { ModulosComponent } from 'src/app/pages/principal/administracion/modulos/modulos.component';
 import { CanalesComponent } from 'src/app/pages/principal/administracion/canales/canales.component';
 import { OperacionesComponent } from 'src/app/pages/principal/administracion/operaciones/operaciones.component';
+import { ProductosComponent } from 'src/app/pages/principal/administracion/productos/productos.component';
 import { PrincipalComponent } from '../../pages/principal/principal.component';
+import { OperacionCambiariaComponent } from 'src/app/pages/principal/operacion-cambiaria/operacion-cambiaria.component';
+
 
 export const AdminLayoutRoutes: Routes = [
     {
@@ -58,5 +61,15 @@ export const AdminLayoutRoutes: Routes = [
         component: OperacionesComponent,
         canActivate: [AuthGuardGuard]
     },
+    {
+        path: 'productos',
+        component: ProductosComponent,
+        canActivate: [AuthGuardGuard]
+    },
+    {
+        path: 'operacionescambiarias',
+        component: OperacionCambiariaComponent,
+        canActivate: [AuthGuardGuard]
+    }
 
 ];
